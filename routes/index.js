@@ -124,9 +124,25 @@ const supported_Currencies = curreny.map((ele, idx) => {
 });
 router.get("/help", (req, res) => {
     console.log(supported_Currencies.length);
+    let info = `"How to Use It":
+    "To perform a currency conversion, make an HTTP GET request to the following endpoint:
+    https://currencyconverterapi-production.up.railway.app/conversion/from/{from_code}/to/{to_code}/amount/{amount}
+    
+    Replace the placeholders with the following values:
+    - {from_code}: The currency code you want to convert from (e.g., USD, EUR).
+    - {to_code}: The currency code you want to convert to (e.g., GBP, JPY).
+    - {amount}: The amount of money you want to convert.
+    
+    Example Request:
+    To convert 100 USD to EUR, use the following URL:
+    https://currencyconverterapi-production.up.railway.app/conversion/from/USD/to/EUR/amount/100
+    
+    The API will respond with the converted amount in the specified currency. Enjoy using the Currency Converter API!"
+    `;
     const apiInfo = {
         name: "Currency Converter API",
         version: "1.0.0",
+        "how to use it -": info,
         description: "An API for currency conversion",
         "all currency we support": supported_Currencies,
     };
