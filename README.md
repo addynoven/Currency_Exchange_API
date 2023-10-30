@@ -1,6 +1,6 @@
-# Currency Converter API
+# Currency Exchange API
 
-Currency Converter API is a RESTful API developed in Node.js, allowing users to convert between different currencies. This API uses exchange rate data to provide accurate and up-to-date conversion results.
+Currency Exchange API is a RESTful API developed in Node.js, allowing users to convert between different currencies. This API uses exchange rate data to provide accurate and up-to-date conversion results.
 
 ## Features
 
@@ -13,8 +13,8 @@ Currency Converter API is a RESTful API developed in Node.js, allowing users to 
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/addynoven/currency_converter_api.git
-    cd currency_converter_api
+    git clone https://github.com/addynoven/Currency_Exchange_API.git
+    cd Currency_Exchange_API
     ```
 
 2. **Install Dependencies:**
@@ -47,7 +47,6 @@ Send a GET request to the endpoint with the following parameters:
 
 `GET /conversion/from/USD/to/EUR/amount/100`
 
-
 Response:
 ```json
 83.55
@@ -75,7 +74,7 @@ Feel free to contribute to this project by forking the repository and creating p
 
 ## License
 
-This project is licensed under the [Apache License 2.0](https://github.com/addynoven/currency_converter_api/blob/main/LICENSE) License - see the LICENSE.md file for details.
+This project is licensed under the [Apache License 2.0](https://github.com/addynoven/Currency_Exchange_API/blob/main/LICENSE) License - see the LICENSE.md file for details.
 
 ## Acknowledgements
 
