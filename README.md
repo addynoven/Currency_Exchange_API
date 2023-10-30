@@ -75,7 +75,7 @@ Feel free to contribute to this project by forking the repository and creating p
 
 ## License
 
-This project is licensed under the [Your License] License - see the LICENSE.md file for details.
+This project is licensed under the [Apache License 2.0](https://github.com/addynoven/currency_converter_api/blob/main/LICENSE) License - see the LICENSE.md file for details.
 
 ## Acknowledgements
 
